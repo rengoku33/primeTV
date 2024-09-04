@@ -12,9 +12,9 @@ function App() {
         <Navbar />
         <main className="p-4">
           <Routes>
-            <Route path="/" element={<div className="text-center">Welcome to the Movie App</div>} />
+            <Route path="/" element={<div className="text-center text-white text-2xl mt-[10%]">Ahoy! Welcome aboard... advanced search is currently the only working feature</div>} />
             <Route path="/advanced-search" element={<AdvancedSearch />} />
-            <Route path="/explore" element={<div className="text-center">Explore Page</div>} />
+            {/* <Route path="/explore" element={<div className="text-center">Explore Page</div>} /> */}
           </Routes>
         </main>
       </Router>
